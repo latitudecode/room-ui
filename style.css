@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-  height: 370px;
+  height: 330px;
   width: 240px;
   background-color: #283745;
   margin: 0 auto;
@@ -32,7 +32,7 @@ body {
 
 
 .shadow {
-  bottom: 93px;
+  bottom: 90px;
   position: relative;
   z-index: 1;
 }
@@ -58,18 +58,17 @@ body {
   position: relative;
   width: 240px;
   margin: 0 auto;
-  border-top: 3px solid #2ba3a7;
   border-bottom: 3px solid #2ba3a7;
   color: #fff;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  bottom: 100px;
+  bottom: 170px;
 }
 
 
 .button {
   width: 119px;
-  padding: 20px 0px 20px 0px;
+  padding: 23px 0px;
   background-color: #1c262f;
   text-transform: uppercase;
   border-bottom: 2px solid #283745;
@@ -124,7 +123,7 @@ body {
 }
 
 .info ul {
-  padding: 3px 0px 0px 15px;
+  padding: 0px 0 0 15px;
   margin: 4px 0px 0px 0px;
   top: 9px;
   position: relative;
@@ -140,7 +139,7 @@ body {
 }
 
 .gradient {
-  height: 90px;
+  height: 68px;
   background-color: #e7e2e2;
   background-image:
     linear-gradient(
@@ -187,11 +186,14 @@ body {
 
 .slide {
     position: relative;
-    top: 93px;
+    top: 70px;
     z-index: 999999999;
 }
 
 .hotel-status {
     position: relative;
-    top: 85px;
+    top: 75px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: 14px;
 }
