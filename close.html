@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <style>
+      .wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  height: 370px;
+  width: 240px;
+  background-color: #283745;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.hotel-name {
+  position: absolute;;
+  bottom: 0px;
+  padding-left: 10px;
+  z-index: 3;
+}
+
+.hotel-image {
+  height: 305px;
+  width: 240px;
+  position: relative;
+}
+
+
+.shadow {
+  bottom: 93px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.chart {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  z-index: 3;
+}
+
+
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.buttons {
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  border-top: 3px solid #2ba3a7;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.button {
+  width: 119px;
+  padding: 20px 0px 20px 0px;
+  background-color: #1c262f;
+  border-bottom: 2px solid #283745;
+}
+
+
+.price {
+  width: 100%;
+  background-color: #1c262f;
+  padding: 2px 0px 2px 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Open Sans';
+  bottom: 0px;
+  border-bottom: 3px solid #47bcc0;
+}
+
+.price p {
+  left: 15px;
+  position: relative;
+  color: #fff;
+}
+
+/* type */
+
+.hotel-image {
+  color: #fff;
+}
+
+.wifi-badge {
+  height: 40px;
+  width: 40px;
+  background-color: #fbfbfb;
+  margin: 50px auto 0px auto;
+  border-radius: 110px;
+  border: 3px solid #47bcc0;
+  position: absolute;
+  top: 310px;
+  left: 170px;
+  z-index: 9999;
+}
+
+.wifi-badge img {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 22px;
+  height: auto;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+        <div class="card">
+          <div class="hotel-image">
+              <img class="room" src="http://sambakersalmon.com/me/htrader/images/room.png" />
+              <img class="chart" src="http://sambakersalmon.com/me/htrader/images/chart.png" />
+              <p class="hotel-name">The Refinery Hotel</p> 
+              <img class="shadow" src="http://sambakersalmon.com/me/htrader/images/shadow.png" />
+          </div>
+          <div class="buttons">
+                <div class="fr button">buy room</div>
+                <div class="fl button">$245</div>
+          </div>
+          <div style="clear: both;"></div>
+           <div class="price"><p>Original Price: <span style="color: #1ca4a2;">$250</span<p></div>
+           <div class="wifi-badge"><img src="http://sambakersalmon.com/me/htrader/images/wifi.png" /></div>
+    </div>
+  </body>
+</html>
