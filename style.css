@@ -1,0 +1,177 @@
+body {
+  padding-top: 90px;  
+}
+
+.wrap {
+  width: 100%;
+  margin: 10 auto;
+}
+
+.card {
+  height: 370px;
+  width: 240px;
+  background-color: #283745;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.hotel-name {
+  position: absolute;;
+  bottom: 0px;
+  padding-left: 10px;
+  z-index: 3;
+}
+
+.hotel-image {
+  height: 305px;
+  width: 240px;
+  position: relative;
+  bottom: 100px;
+}
+
+
+.shadow {
+  bottom: 93px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.chart {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  z-index: 3;
+}
+
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.buttons {
+  position: relative;
+  width: 240px;
+  margin: 0 auto;
+  border-top: 3px solid #2ba3a7;
+  border-bottom: 3px solid #2ba3a7;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  bottom: 100px;
+}
+
+
+.button {
+  width: 119px;
+  padding: 20px 0px 20px 0px;
+  background-color: #1c262f;
+  text-transform: uppercase;
+  border-bottom: 2px solid #283745;
+}
+
+.price {
+  width: 100%;
+  background-color: #1c262f;
+  padding: 2px 0px 2px 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Open Sans';
+  bottom: 0px;
+}
+
+.wifi-badge {
+  height: 50px;
+  width: 50px;
+  background-color: #fbfbfb;
+  margin: 50px auto 0px auto;
+  border-radius: 110px;
+  border: 3px solid #47bcc0;
+  position: relative;
+}
+
+.wifi-badge img {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 22px;
+  height: auto;
+}
+
+.info {
+  width: 100%;
+  background-color: #e7e2e2;
+  padding: 2px 0px 2px 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Open Sans';
+  bottom: 0px;
+}
+
+.info ul li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  color: #1c262f;
+  font-size: 13px;
+}
+
+.info ul {
+  padding: 3px 0px 0px 15px;
+  margin: 4px 0px 0px 0px;
+  top: 9px;
+  position: relative;
+}
+
+.info .green {
+  color: #1ca4a2;
+}
+
+.price p {
+  left: 15px;
+  position: relative;
+}
+
+.gradient {
+  height: 90px;
+  background-color: #e7e2e2;
+  background-image:
+    linear-gradient(
+      to top,
+      #999898,
+      #e7e2e2 60%
+    );
+}
+
+.hotel-image {
+  color: #fff;
+}
+
+
+.wifi-badge {
+  height: 50px;
+  width: 50px;
+  background-color: #fbfbfb;
+  margin: 50px auto 0px auto;
+  border-radius: 110px;
+  border: 3px solid #47bcc0;
+  position: absolute;
+  top: 80px;
+  left: 165px;
+  z-index: 9999;
+}
+
+.wifi-badge img {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 22px;
+  height: auto;
+}
