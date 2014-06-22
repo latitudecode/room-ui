@@ -178,9 +178,18 @@ body {
 
 
 .mover {
-
+  z-index: 999999999;
 }
 
 .fixer {
+  z-index: 2;
+}
+
+.slide {
+    position: relative;
+    top: 93px;
+}
+
+.hotel-status {
   
 }
