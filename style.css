@@ -20,7 +20,7 @@ body {
   position: absolute;;
   bottom: 0px;
   padding-left: 10px;
-  z-index: 3;
+  z-index: 99999999;
 }
 
 .hotel-image {
@@ -42,7 +42,7 @@ body {
   position: absolute;
   bottom: 45px;
   left: 15px;
-  z-index: 3;
+  z-index: 999999999;
 }
 
 
@@ -188,8 +188,10 @@ body {
 .slide {
     position: relative;
     top: 93px;
+    z-index: 999999999;
 }
 
 .hotel-status {
-  
+    position: relative;
+    top: 85px;
 }
